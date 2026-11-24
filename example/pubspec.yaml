@@ -1,0 +1,13 @@
+name: stag_appbar_example
+description: Example of stag_appbar with stag_sidebar.
+publish_to: none
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  stag_appbar:
+    path: ../
+  stag_sidebar: ^0.2.1
+flutter:
+  uses-material-design: true
