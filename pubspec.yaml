@@ -1,5 +1,6 @@
 name: stag_appbar
 description: A customizable Flutter app bar that complements stag_sidebar.
+repository: https://github.com/karamba121/stag_appbar
 version: 0.1.0
 
 environment:

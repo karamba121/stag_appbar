@@ -1,0 +1,17 @@
+/.dart_tool/
+/.idea/
+/.metadata
+/.flutter-plugins*
+/build/
+/android/
+/ios/
+/linux/
+/macos/
+/web/
+/windows/
+/pubspec.lock
+/example/.dart_tool/
+/example/.flutter-plugins*
+/example/build/
+/example/pubspec.lock
+*.iml

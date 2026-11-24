@@ -4,12 +4,11 @@ A customizable Flutter app bar designed to complement [stag_sidebar](https://pub
 
 ## Installation
 
-Add `stag_appbar` to your dependencies. Before publishing, use a local path or Git dependency:
+Add `stag_appbar` to your `pubspec.yaml`. Add `stag_sidebar` only if you also want the companion sidebar:
 
 ```yaml
 dependencies:
-  stag_appbar:
-    path: ../stag_appbar
+  stag_appbar: ^0.1.0
   stag_sidebar: ^0.2.1
 ```
 
@@ -67,3 +66,6 @@ flutter create --platforms=web .
 flutter run -d chrome
 ```
 
+## License
+
+[BSD 3-Clause](LICENSE).
