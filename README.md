@@ -2,13 +2,27 @@
 
 A customizable Flutter app bar designed to complement [stag_sidebar](https://pub.dev/packages/stag_sidebar). Both share dark and light palettes, rounded corners and shadows. The packages can be used independently.
 
+## Visual reference
+
+The image below shows the design that inspired the app bar and its companion sidebar. Run the [example](#example) to see the current implementation.
+
+![Visual reference for the app bar and sidebar](assets/original-e6b2332094aad1caa8469b4730300dbe.webp)
+
+### Example screenshots
+
+The example combines both components in different layouts and themes:
+
+| Dark theme, expanded sidebar | Light theme, compact sidebar | Light theme, app bar above sidebar |
+| --- | --- | --- |
+| ![Dark theme with the app bar beside the expanded sidebar](assets/image.png) | ![Light theme with the app bar beside the compact sidebar](assets/image-1.png) | ![Light theme with the app bar above the compact sidebar](assets/image-2.png) |
+
 ## Installation
 
 Add `stag_appbar` to your `pubspec.yaml`. Add `stag_sidebar` only if you also want the companion sidebar:
 
 ```yaml
 dependencies:
-  stag_appbar: ^0.1.0
+  stag_appbar: ^0.1.1
   stag_sidebar: ^0.2.1
 ```
 

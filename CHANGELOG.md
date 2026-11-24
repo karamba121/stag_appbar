@@ -1,3 +1,7 @@
+## 0.1.1
+
+- Add visual references and example screenshots to the README.
+
 ## 0.1.0
 
 - Initial release of the customizable Stag app bar with light and dark styles.
